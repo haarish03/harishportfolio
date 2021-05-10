@@ -1,0 +1,145 @@
+.bg-dark{
+  height: 80px;
+ 
+}
+
+.bg{
+  
+  background: #acb6e5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.intro{
+  color: #232320;
+  font-family: Bogart,Recoleta,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 3.5em;
+  letter-spacing: -1.5px;
+  line-height: 110%;
+  margin: 60px;
+  transition: all .2s ease-in-out;
+  
+  padding: 11% 3% 3%;
+  
+ }
+
+.techimg{
+  text-align: center;
+  padding: 9% 3% 3%;
+}
+ .abt{
+   font-size: 40px;
+   font-family: 'Satisfy', cursive;
+   word-spacing: 10px;
+ }
+
+
+.btn {
+  
+  background: #eb1212;
+  background-image: -webkit-linear-gradient(top, #eb1212, #ab522c);
+  background-image: -moz-linear-gradient(top, #eb1212, #ab522c);
+  background-image: -ms-linear-gradient(top, #eb1212, #ab522c);
+  background-image: -o-linear-gradient(top, #eb1212, #ab522c);
+  background-image: linear-gradient(to bottom, #eb1212, #ab522c);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 20px 40px 20px 40px;
+  text-decoration: none;
+  
+}
+
+#bt{
+  color: white;font-family: 'Lobster', cursive;font-size: 23px;
+}
+
+@media (max-width:1017px){
+  .techimg{
+   padding: 0% 3% 9%;
+  }
+  .b2{
+    margin: -4%;
+  }
+}
+
+@media (max-width:917px){
+  #bt{
+    text-align: left;
+    }
+  .abt{
+    padding-right: 100px;
+  }  
+}
+
+@media (max-width:713px){
+  .b2{
+    padding-left: 0px;
+  }}
+
+.btn:hover {
+  background: #19d13e;
+  background-image: -webkit-linear-gradient(top, #19d13e, #c7d415);
+  background-image: -moz-linear-gradient(top, #19d13e, #c7d415);
+  background-image: -ms-linear-gradient(top, #19d13e, #c7d415);
+  background-image: -o-linear-gradient(top, #19d13e, #c7d415);
+  background-image: linear-gradient(to bottom, #19d13e, #c7d415);
+  text-decoration: none;
+}
+
+
+#footer{
+  text-align: center;
+  padding:7% 13%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.s{
+  color: #232320;
+}
+
+#about{
+  padding: 5% 9% 0%;
+  font-family: 'Pattaya', sans-serif;
+  font-size: 32px;
+  word-spacing: 9px;
+  text-align:justify;
+}
+
+#slide{
+  padding: 1% 9% 3%;
+}
+
+.carousel-inner{
+  height: 600px;
+  width: 500px;
+}
+
+.sli{
+  height: 600px;
+  width: 500px;
+}
