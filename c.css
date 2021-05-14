@@ -143,3 +143,43 @@ a:active {
   height: 600px;
   width: 500px;
 }
+
+label{
+  font-family: Bogart,Recoleta,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: larger;
+}
+
+form{
+  margin-left: 7%;
+}
+
+input{
+  margin-left: 30%;
+}
+
+#ft {
+  background: #d93434;
+  background-image: -webkit-linear-gradient(top, #d93434, #a52bb8);
+  background-image: -moz-linear-gradient(top, #d93434, #a52bb8);
+  background-image: -ms-linear-gradient(top, #d93434, #a52bb8);
+  background-image: -o-linear-gradient(top, #d93434, #a52bb8);
+  background-image: linear-gradient(to bottom, #d93434, #a52bb8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#ft:hover {
+  background: #bffc3c;
+  background-image: -webkit-linear-gradient(top, #bffc3c, #34d952);
+  background-image: -moz-linear-gradient(top, #bffc3c, #34d952);
+  background-image: -ms-linear-gradient(top, #bffc3c, #34d952);
+  background-image: -o-linear-gradient(top, #bffc3c, #34d952);
+  background-image: linear-gradient(to bottom, #bffc3c, #34d952);
+  text-decoration: none;
+}
